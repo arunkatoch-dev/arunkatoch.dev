@@ -1,8 +1,10 @@
-# React + Vite
+# Arun Katoch Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello World! I'm Arun Katoch a self-taught front-end developer with a solid foundation in HTML, CSS, JavaScript, and React, I am passionate about crafting beautiful and engaging user interfaces. Additionally, my knowledge of backend technologies such as Node.js, Express, and MongoDB has given me a well-rounded understanding of full-stack development.
 
-Currently, two official plugins are available:
+I thrive on challenges and constantly seek to expand my skill set through hands-on projects and continued learning. I am highly motivated, detail-oriented, and dedicated to delivering high-quality code that meets user needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+With a focus on user experience and a commitment to staying up-to-date with the latest trends and best practices, I am confident in my ability to bring value to any development team.
+
+
+Author: Arun Katoch

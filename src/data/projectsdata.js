@@ -25,4 +25,13 @@ export const projectsData = {
     liveLink: "https://resume-builder-mern.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/resume-builder-mern",
   },
+  vscodeExplorerProject: {
+    title: "VS Code File Explorer",
+    projectDescription:
+      "React JS Project -  CRUD operations implementation on Complex UI.",
+    liveLink: "https://vscode-file-explorer-five.vercel.app/",
+    codeLink: "https://github.com/arunkatoch-dev/vscode-file-explorer",
+  },
 };
+
+export const lastUpdate = "30-11-24";

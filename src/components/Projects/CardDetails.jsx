@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { Link } from "react-router";
 
 const CardDetails = ({ title, projectDescription, liveLink, codeLink }) => {
@@ -12,7 +12,7 @@ const CardDetails = ({ title, projectDescription, liveLink, codeLink }) => {
       </span>
       <div className="flex gap-2">
         <span className=" text-sm sm:text-lg text-tertiary">
-          &lt; span &gt; {projectDescription} &lt;/ span &gt;
+          &lt;span&gt; {projectDescription} &lt;/span&gt;
         </span>
       </div>
       <div className="flex gap-1 sm:gap-3 p-1 sm:p-4">

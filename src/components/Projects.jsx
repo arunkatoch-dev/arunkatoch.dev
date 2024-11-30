@@ -1,9 +1,10 @@
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
-import React, { lazy, Suspense, useState } from "react";
+import { lazy, Suspense, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import resumeBuilder from "../assets/resumeBuilder.webp";
+import fileexplorer from "../assets/fileexplorer.webp";
 import schoolManagementSystem from "../assets/schoolManagementSystem.webp";
 import sharendcare from "../assets/sharendcare.webp";
 import myBnb from "../assets/myBnb.webp";
@@ -45,7 +46,7 @@ const Projects = () => {
           </SwiperSlide>
           <SwiperSlide className={swipperSlideStyles}>
             <Suspense fallback={<CircularSpinner />}>
-              <ImageCube imgSrc={sharendcare} title="Quora App Clone" />
+              <ImageCube imgSrc={sharendcare} title="Share And Care" />
             </Suspense>
           </SwiperSlide>
           <SwiperSlide className={swipperSlideStyles}>
@@ -59,6 +60,11 @@ const Projects = () => {
           <SwiperSlide className={swipperSlideStyles}>
             <Suspense fallback={<CircularSpinner />}>
               <ImageCube imgSrc={resumeBuilder} title="Resume Builder App" />
+            </Suspense>
+          </SwiperSlide>
+          <SwiperSlide className={swipperSlideStyles}>
+            <Suspense fallback={<CircularSpinner />}>
+              <ImageCube imgSrc={fileexplorer} title="VS Code File Explorer" />
             </Suspense>
           </SwiperSlide>
         </Swiper>
@@ -116,6 +122,18 @@ const Projects = () => {
                 }
                 liveLink={projectsData.resumeBuilderProject.liveLink}
                 codeLink={projectsData.resumeBuilderProject.codeLink}
+              />
+            </Suspense>
+          </SwiperSlide>
+          <SwiperSlide className={swipperSlideStyles}>
+            <Suspense fallback={<CircularSpinner />}>
+              <CardDetails
+                title={projectsData.vscodeExplorerProject.title}
+                projectDescription={
+                  projectsData.vscodeExplorerProject.projectDescription
+                }
+                liveLink={projectsData.vscodeExplorerProject.liveLink}
+                codeLink={projectsData.vscodeExplorerProject.codeLink}
               />
             </Suspense>
           </SwiperSlide>

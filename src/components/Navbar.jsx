@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import menuBtn from "../assets/icons/menu.png";
@@ -30,7 +30,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={500}
+            duration={50}
           >
             Home
           </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={700}
+            duration={50}
           >
             About
           </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={900}
+            duration={50}
           >
             Contact
           </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={1100}
+            duration={50}
           >
             Projects
           </Link>
@@ -78,7 +78,7 @@ const Navbar = () => {
             spy={true}
             smooth={true}
             offset={50}
-            duration={1300}
+            duration={50}
           >
             Experience
           </Link>
@@ -109,7 +109,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={500}
+              duration={50}
+              onClick={mobileNav}
             >
               Home
             </Link>
@@ -119,7 +120,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={700}
+              duration={50}
+              onClick={mobileNav}
             >
               About
             </Link>
@@ -129,7 +131,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={900}
+              duration={50}
+              onClick={mobileNav}
             >
               Contact
             </Link>
@@ -139,7 +142,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1100}
+              duration={50}
+              onClick={mobileNav}
             >
               Projects
             </Link>
@@ -149,7 +153,8 @@ const Navbar = () => {
               spy={true}
               smooth={true}
               offset={50}
-              duration={1300}
+              duration={50}
+              onClick={mobileNav}
             >
               Experience
             </Link>

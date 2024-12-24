@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import { lazy, Suspense } from "react";
 import bootstrap from "../assets/icons/bootstrap.png";
 import canva from "../assets/icons/canva.png";
 import cmd from "../assets/icons/cmd.png";

@@ -1,37 +1,55 @@
-export const projectsData = {
-  airBnbProject: {
+export const projectsData = [
+  {
+    title: "AK Blogs",
+    projectDescription: "Next Js Based project",
+    liveLink: "https://akblogs-nu.vercel.app/",
+    codeLink: "https://github.com/arunkatoch-dev/akblogs",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735024208/portfolio/qikylmfvkqlg0szlholy.webp",
+  },
+  {
     title: "My Bnb (Air Bnb App Clone)",
     projectDescription: "Front-End Project based on React and tailwind Css.",
     liveLink: "https://my-bnb.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/myBnb",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735023591/portfolio/sfo9jcrk5psnqazqwa15.webp",
   },
-  shareAndCareProject: {
+  {
     title: "Share And Care (Quora App Clone)",
     projectDescription: "MERN Stack based project.",
     liveLink: "https://shareandcare.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/shareandcare",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735023591/portfolio/tqwy8pb3odrr72tqozi0.webp",
   },
-  schoolManagementSystemProject: {
+  {
     title: "School Management System",
     projectDescription:
       "MERN Stack based project (With Multiple Profile Login Functionality)",
     liveLink: "https://school-management-system-umber.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/school-management-system",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735023591/portfolio/rk167qkb0r4gym1ixt32.webp",
   },
-  resumeBuilderProject: {
+  {
     title: "Resume Builder Web App",
     projectDescription:
       "MERN Stack based project (with pdf download functionality.)",
     liveLink: "https://resume-builder-mern.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/resume-builder-mern",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735023591/portfolio/t9l9wrjcphx0qhqp33yq.webp",
   },
-  vscodeExplorerProject: {
+  {
     title: "VS Code File Explorer",
     projectDescription:
       "React JS Project -  CRUD operations implementation on Complex UI.",
     liveLink: "https://vscode-file-explorer-five.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/vscode-file-explorer",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1735023591/portfolio/cj6oygmovqamggws35kl.webp",
   },
-};
+];
 
-export const lastUpdate = "30-11-24";
+export const lastUpdate = "24-12-24";

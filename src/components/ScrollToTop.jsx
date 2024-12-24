@@ -1,4 +1,3 @@
-import React from "react";
 import upArrow from "../assets/icons/upArrow.png";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -17,7 +16,7 @@ const ScrollToTop = () => {
         type: "easeIn",
       }}
     >
-      <Link to="home" spy={true} smooth={true} offset={50} duration={1000}>
+      <Link to="home" spy={true} smooth={true} offset={50} duration={50}>
         <img
           src={upArrow}
           alt="upArrow"

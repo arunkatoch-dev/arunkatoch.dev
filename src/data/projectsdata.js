@@ -1,6 +1,14 @@
 export const projectsData = [
   {
-    title: "AK Blogs",
+    title: "Ecommerce",
+    projectDescription: "Next Js Based project",
+    liveLink: "https://ecommerce-pied-nine-46.vercel.app",
+    codeLink: "https://github.com/arunkatoch-dev/ecommerce",
+    imgLink:
+      "https://res.cloudinary.com/dzxjftbo3/image/upload/v1739530352/portfolio/dzplxgci9uckouhuty9e.png",
+  },
+  {
+    title: "Blogs Application",
     projectDescription: "Next Js Based project",
     liveLink: "https://akblogs-nu.vercel.app/",
     codeLink: "https://github.com/arunkatoch-dev/akblogs",
@@ -52,4 +60,4 @@ export const projectsData = [
   },
 ];
 
-export const lastUpdate = "24-12-24";
+export const lastUpdate = "14-02-25";

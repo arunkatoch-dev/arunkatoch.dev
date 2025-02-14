@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="flex sm:flex-row flex-col w-full pt-2 justify-between">
         <div className=" w-full flex gap-2 justify-between items-center sm:px-2 sm:flex-row flex-col">
           <span className="text-tertiary hidden sm:inline-flex w-full">
-            &copy; All Rights reserved 2024-25
+            &copy; All Rights reserved 2025-26
           </span>
           <div className="w-full sm:flex flex-col items-center justify-center hidden">
             <span className="text-tertiary text-base font-paragraph">

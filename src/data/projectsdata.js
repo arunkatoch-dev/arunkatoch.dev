@@ -60,4 +60,4 @@ export const projectsData = [
   },
 ];
 
-export const lastUpdate = "14-02-25";
+export const lastUpdate = "11-06-25";
